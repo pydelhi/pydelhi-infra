@@ -2,6 +2,7 @@ Code Contributors
 =================
 
 Saurabh Kumar (gh: theskumar / @_theskumar)*
+Geetika Batra (gh: GeetikaBatra)
 
 * Possesses commit rights
 
@@ -9,4 +10,3 @@ Special Thanks
 ==============
 
 The following haven't provided code directly, but have provided guidance and advice.
-
