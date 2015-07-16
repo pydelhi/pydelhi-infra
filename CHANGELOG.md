@@ -4,6 +4,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased][unreleased]
 ### Added
+- Add getting up and running documentation
 - Vagrantfile with ubuntu as base image and ansible playbook
 - CHANGELOG.md, LICENSE and README.md
 
