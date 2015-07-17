@@ -1,5 +1,7 @@
 # pydelhi-infra
 
+[![Build Status](https://travis-ci.org/pydelhi/pydelhi-infra.svg?branch=master)](https://travis-ci.org/pydelhi/pydelhi-infra)
+
 Configurations of all the servers and applications hosted under pydelhi.org.
 
 ## Getting Started

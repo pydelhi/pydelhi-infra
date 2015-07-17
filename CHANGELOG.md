@@ -4,6 +4,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased][unreleased]
 ### Added
+- Add .travis.yml for running CI test with simple syntax check
 - Add getting up and running documentation
 - Vagrantfile with ubuntu as base image and ansible playbook
 - CHANGELOG.md, LICENSE and README.md

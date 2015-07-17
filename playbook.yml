@@ -2,3 +2,6 @@
 - hosts: all
   sudo: true
   gather_facts: false
+
+  roles:
+  - common
