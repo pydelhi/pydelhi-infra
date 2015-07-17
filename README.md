@@ -31,8 +31,8 @@ vagrant ssh
 ## Contributing
 
 - Search through existing open/closed github [issues].
-- Open [new github issue] or send a pull-request, 
-- If that dosn't help, feel free to anything at [#pydelhi][pydelhi-irc] @ freenode.net
+- Open [new github issue] or send a pull-request,
+- If that dosn't help, feel free to ask anything at [#pydelhi][pydelhi-irc] @ freenode.net
 
 ## Changelog
 
@@ -45,5 +45,5 @@ To all the [contributors].
 [contributors]: ./CONTRIBUTORS.txt
 [changelog]: CHANGELOG.md
 [pydelhi-irc]: http://bit.ly/pydelhi-irc
-[issues]: ./issues
-[new github issue]: ./issues/new
+[issues]: https://github.com/pydelhi/pydelhi-infra/issues
+[new github issue]: https://github.com/pydelhi/pydelhi-infra/issues/new
