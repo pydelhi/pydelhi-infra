@@ -5,20 +5,22 @@ Configurations of all the servers and applications hosted under pydelhi.org.
 ## Getting Started
 
 Clone this repository to your local machine:
-```
+
+```shell
 git clone --recursive git@github.com:pydelhi/pydelhi-infra.git
 cd pydelhi-infra
 ```
 
 Make sure you have [vagrant] and virtualbox installed, then run:
 
-```
+```shell
+sudo pip install ansible
 vagrant up
 ```
 
 Login to the new machine with:
 
-```
+```shell
 vagrant ssh
 ```
 
