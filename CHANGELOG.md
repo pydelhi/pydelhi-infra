@@ -10,4 +10,4 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - CHANGELOG.md, LICENSE and README.md
 
 
-[unreleased]: https://github.com/olivierlacan/keep-a-changelog/compare/v0.0.0...HEAD
+[unreleased]: https://github.com/pydelhi/pydelhi-infra/compare/v0.0.0...master
