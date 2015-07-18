@@ -1,0 +1,6 @@
+---
+# roles/hubot/tasks/main.yml
+- name: Install hubot
+  command: npm install -g hubot coffee-script
+  sudo: true
+  tags: ['hubot']

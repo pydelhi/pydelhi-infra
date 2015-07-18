@@ -1,0 +1,4 @@
+---
+dependencies:
+  - { role: bennojoy.redis}
+  - { role: nickjj.nodejs, tags: node }

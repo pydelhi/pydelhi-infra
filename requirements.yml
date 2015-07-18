@@ -2,3 +2,9 @@
 
 # https://github.com/yatesr/ansible-timezone
 - src: yatesr.timezone
+
+# https://galaxy.ansible.com/list#/roles/6
+- src: bennojoy.redis
+
+# https://galaxy.ansible.com/list#/roles/6
+- src: nickjj.nodejs

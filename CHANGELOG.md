@@ -4,6 +4,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased][unreleased]
 ### Added
+- Ansible role for setting up hubot (#8)
 - Ansible galaxy integration (#9)
 - Add .travis.yml for running CI test
 - Add getting up and running documentation
