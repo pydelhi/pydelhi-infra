@@ -1,4 +1,4 @@
 ---
 # roles/common/tasks/main.yml
-- name: set system locale
+- name: Set system locale
   command: update-locale LC_ALL={{ lc_all }} LANG={{ lang }} LC_CTYPE={{ lc_ctype }} LC_COLLATE={{ lc_collate }}

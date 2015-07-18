@@ -1,14 +1,16 @@
 ---
 language: python
 python: "2.7"
-
-before_install:
-  # Make sure everything's up to date.
-  - sudo apt-get update -qq
+sudo: true
 
 install:
   # Install Ansible.
-  - pip install ansible
+  - sudo pip install ansible
+  - sudo ansible-galaxy install -r requirements.yml
 
 script:
+  # Check the role/playbook's syntax.
   - ansible-playbook -i hosts playbook.yml --syntax-check
+
+  # Run the role/playbook with ansible-playbook.
+  - "ansible-playbook -i hosts playbook.yml --connection=local --sudo -vvvv"

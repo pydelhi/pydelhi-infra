@@ -17,14 +17,19 @@ Make sure you have [vagrant] and virtualbox installed, then run:
 
 ```shell
 sudo pip install ansible
+sudo ansible-galaxy install -r requirements.yml
 vagrant up
 ```
 
-Login to the new machine with:
+You can login to the virtal machine with `vagrant ssh`. If you want to run any changes you have done in the ansible scripts, use `vargant provision` to run them against the virtual machine.
 
-```shell
-vagrant ssh
-```
+Use `vagrant destroy` to kill the virtual machine.
+
+
+### Further Reading
+
+1. https://docs.ansible.com/galaxy.html
+
 
 [vagrant]: https://www.vagrantup.com/downloads.html
 

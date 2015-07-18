@@ -1,0 +1,4 @@
+# https://docs.ansible.com/galaxy.html#advanced-control-over-role-requirements-files
+
+# https://github.com/yatesr/ansible-timezone
+- src: yatesr.timezone
