@@ -1,6 +1,29 @@
 ---
 - hosts: all
   sudo: true
+  gather_facts: yes
 
   roles:
+  - andyceo.git
+  - bennojoy.mysql
   - common
+  - nginx
+  - erasme.etherpad
+
+
+
+  vars:
+  - etherpad_deploy_user : etherpad
+  - etherpad_port : 9001
+  - etherpad_log_parent_dir : /var/log
+  - etherpad_session_key: default
+  - etherpad_version : master
+  - etherpad_path: /var/www/html
+  - etherpad_repos: https://github.com/ether/etherpad-lite.git
+  - etherpad_database:
+      name: etherpad
+      user: etherpad
+      host: localhost
+      password: etherpad
+  - mysql_db: [{name: etherpad}]
+  - mysql_users: [{name: etherpad, pass: etherpad, priv: "*.*:ALL"}]

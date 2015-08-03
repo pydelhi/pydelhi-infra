@@ -2,3 +2,12 @@
 
 # https://github.com/yatesr/ansible-timezone
 - src: yatesr.timezone
+
+# https://github.com/erasme/ansible-etherpad
+- src: erasme.etherpad
+
+# https://github.com/bennojoy/mysql
+- src: bennojoy.mysql
+
+# https://github.com/andyceo/ansible-role-git
+- src: andyceo.git
