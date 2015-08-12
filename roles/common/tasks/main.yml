@@ -2,3 +2,13 @@
 # roles/common/tasks/main.yml
 - name: Set system locale
   command: update-locale LC_ALL={{ lc_all }} LANG={{ lang }} LC_CTYPE={{ lc_ctype }} LC_COLLATE={{ lc_collate }}
+
+- name: update apt cache
+  apt: update_cache=yes
+
+- name: install apt_get install apt_packages
+  apt: pkg={{ item }} state=present
+  with_items: base_ubuntu.common.apt_packages
+
+- name: easy_install pip
+  easy_install: name=pip

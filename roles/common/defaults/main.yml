@@ -3,3 +3,22 @@ lang: "en_US.utf8"
 lc_all: "en_US.utf8"
 lc_ctype: "en_US.utf8"
 lc_collate: "en_US.utf8"
+
+base_ubuntu:
+  common:
+    apt_packages:
+      - build-essential
+      - git
+      - htop
+      - python-dev
+      - python-setuptools
+      - sysstat
+      - vim
+      - fail2ban
+      - libjpeg-dev
+      - libtiff4-dev
+      - zlib1g-dev
+      - libfreetype6-dev
+      - liblcms2-dev
+      - postgresql-client
+      - libpq-dev
