@@ -1,0 +1,5 @@
+---
+retweetbot_repo_url: https://github.com/pydelhi/retweet-bot.git
+retweetbot_path: /apps/retweet_bot
+retweetbot_git_version: master
+retweetbot_frequency_in_min: 5

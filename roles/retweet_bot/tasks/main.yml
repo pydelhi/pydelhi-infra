@@ -1,0 +1,17 @@
+---
+# roles/common/tasks/main.yml
+- name: Make sure '/apps/' directory exists.
+  file: path=/apps/ state=directory mode=0755
+  tags: ['retweet_bot']
+
+- name: Fetch the code
+  git: repo={{ retweetbot_repo_url }} dest={{ retweetbot_path }} version={{retweetbot_git_version}} accept_hostkey=true
+  tags: ['retweet_bot']
+
+- name: Install Project Python Dependencies
+  pip: requirements={{ retweetbot_path }}/requirements.txt
+  sudo: true
+  tags: ['retweet_bot']
+
+- cron: name="Run retweet Bot" minute="*/{{retweetbot_frequency_in_min}}" job="cd {{ retweetbot_path }}; python retweet.py"
+  tags: ['retweet_bot', 'cron']

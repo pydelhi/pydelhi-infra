@@ -67,7 +67,7 @@ Vagrant.configure(2) do |config|
     ansible.playbook = "playbook.yml"
     ansible.host_key_checking = "False"
     ansible.inventory_path = "hosts"
-    ansible.verbose = "v"
+    ansible.verbose = "vvv"
     ansible.limit = "vagrant"
   end
 end
