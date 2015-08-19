@@ -4,6 +4,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased][unreleased]
 ### Added
+- redirect rule from delhi.python.org.in -> pydelhi.org
 - Add retweet-bot
 - Ansible galaxy integration (#9)
 - Add .travis.yml for running CI test

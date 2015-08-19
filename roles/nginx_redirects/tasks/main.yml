@@ -1,0 +1,8 @@
+---
+- name: Ensure redirect rules are present
+  template: src=server_redirects.conf.j2 dest=/etc/nginx/sites-available/server_redirects.conf
+  notify: restart nginx
+
+- name: put host configuration in sites-enabled
+  file: src=/etc/nginx/sites-available/server_redirects.conf dest=/etc/nginx/sites-enabled/server_redirects.conf state=link
+  notify: restart nginx
